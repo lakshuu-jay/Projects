@@ -7,5 +7,5 @@ def leaders(a,a_size):
             print(a[i])
             currentmax=a[i]
 
-a=[16,17,4,3,5,245]
+a=[1,2,3,52,357,3,4,8,2,7]
 leaders(a,len(a))
