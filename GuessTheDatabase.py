@@ -1,0 +1,7 @@
+print("What type is the given database -t \n 1)Relational Data \n 2)Non Relational Database")
+answer = int(input("Enter your guess here..."))
+if answer == 2:
+    print("You guessed it right!")
+else:
+    print("Unfortunately your guess was wrong.")
+print("\nPlease tell your mentor why you guessed this?")
