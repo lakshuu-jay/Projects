@@ -3,7 +3,7 @@ import random
 def pick_ball_experiment():
     balls = ['Red','Blue','Green']
     result=random.choice(balls)
-    pro = balls.count('Red').len(balls)
+    pro = balls.count('Red')/len(balls)
     print("Probability of Picking Red Ball is:",pro)
 
     if result=='Red':
